@@ -44,8 +44,3 @@ gaps across Furniture, Office Supplies, and Technology categories.
 - `RANK() OVER (PARTITION BY region)` for state rankings within regions
 - `ROUND()` for clean financial output
 
-## Git Workflow
-- All development on `dev` branch
-- Merged to `main` via Pull Requests on phase completion
-
-## Repository Structure
