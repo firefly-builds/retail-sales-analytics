@@ -1,8 +1,8 @@
 SELECT
     CASE 
         WHEN discount = 0 THEN 'No Discount'
-        WHEN discount <= 0.2 THE '1% - 20% off'
-        WHEN discount <= 0.4 THE '21% - 40% off'
+        WHEN discount <= 0.2 THEN '1% - 20% off'
+        WHEN discount <= 0.4 THEN '21% - 40% off'
         ELSE 'Over 40% off'
     END AS discount_band,
     ROUND(SUM(sales), 2) AS total_revenue,
